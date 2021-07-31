@@ -12,22 +12,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
+/* PROFILE.JS IMAGE */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +20,96 @@
   to {
     transform: rotate(360deg);
   }
+}
+.App-logo {
+  position: absolute;
+  right: 0;
+  margin: 5%;
+  height: 50%;
+  width: 20%;
+  border-radius: 15%;
+}
+
+.App {
+  background-color: #050505;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.dark-theme {
+  background-color: #db33db;
+  color: whitesmoke;
+}
+
+.light-theme {
+  background-color: rgb(105, 243, 123);
+  color: #333333;
+}
+
+/* NAVBAR */
+.nav {
+  margin: 3px;
+}
+.navbar {
+  margin-top: 0;
+  width: 100%;
+  position: top;
+  min-height: 2vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #630987;
+  transition: all 0.7s ease-in;
+}
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  background-color: #000303;
+}
+.ul {
+  margin-right: 70px;
+  height: 90px;
+  box-sizing: border-box;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+a {
+  color: rgb(8, 8, 8);
+  margin: 130px;
+  font-weight: 200;
+  font-size: 22px;
+}
+
+#githubLink {
+  color: #630987;
+}
+#link_Projects {
+  background-color: rgb(82, 3, 134);
+  font-size: 120%;
+}
+/* My Info */
+.myInfo {
+  margin: 5%;
+  position: relative;
+  right: 220px;
+  border: 3px solid rgb(82, 3, 134);
+}
+
+/* Background met Katten */
+.grappige-kat {
+  width: 100%;
+  height: auto;
+  position: center;
+  margin-top: 135%;
 }
