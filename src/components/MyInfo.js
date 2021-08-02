@@ -2,7 +2,6 @@ import React from "react";
 import Jokes from "./Jokes";
 import jokesData from "./jokesData";
 import styled from "styled-components";
-import Projects from "./Projects";
 import { useHistory } from "react-router-dom";
 import { Link } from "react-router-dom";
 import grappigeKat from "../Assets/grappigeKat.gif";
