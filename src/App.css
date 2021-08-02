@@ -37,19 +37,34 @@
 .dark-theme {
   background-color: #db33db;
   color: whitesmoke;
+  margin: 0;
+  width: 100%;
+  position: top;
+  min-height: 2vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: all 0.7s ease-in;
 }
 
 .light-theme {
   background-color: rgb(105, 243, 123);
   color: #333333;
+  margin: 0;
+  width: 100%;
+  position: top;
+  min-height: 2vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: all 0.7s ease-in;
 }
 
 /* NAVBAR */
-.nav {
-  margin: 3px;
-}
 .navbar {
-  margin-top: 0;
+  margin: 0;
   width: 100%;
   position: top;
   min-height: 2vh;
@@ -90,7 +105,7 @@ a {
   color: #630987;
 }
 .link_Projects {
-  width: 400%;
+  width: 120%;
   margin-top: 100px;
   background-color: #db33db;
   font-size: 120%;

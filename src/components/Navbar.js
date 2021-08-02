@@ -27,7 +27,7 @@ export default function Navbar() {
   return (
     // <header className={navbarClasses.join(" ")}>
     <header className={`${theme}-theme`}>
-      <nav className="nav">
+      <nav>
         <ul className="ul">
           <NavLink to="/">Home</NavLink>
           <NavLink to="projects">Projects</NavLink>
