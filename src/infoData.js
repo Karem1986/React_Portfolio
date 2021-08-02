@@ -2,9 +2,10 @@ const infoData = [
   {
     id: 1,
     name: "Karem",
-    motto: "Passion is not enough, you need discipline and consistency too.",
-    hobbies: "Cooking, coding, dancing and learning ductch",
-    ervaring: "React, Javascript, Nodejs, MongoDB, React Native",
+    motto: "Passion is not enough without discipline and consistency",
+    hobbies: "Cooking, coding, dancing, Nederlands leren!",
+    programmingLanguages:
+      "React, Javascript, Typescript, Nodejs, MongoDB, React Native",
   },
 ];
 

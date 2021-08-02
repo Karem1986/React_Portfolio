@@ -2,18 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .Profile-logo {
+    animation: Profile-logo-spin infinite 20s linear;
   }
 }
 /* PROFILE.JS IMAGE */
-@keyframes App-logo-spin {
+@keyframes Profile-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -21,7 +16,7 @@
     transform: rotate(360deg);
   }
 }
-.App-logo {
+.Profile-logo {
   position: absolute;
   right: 0;
   margin: 5%;
@@ -94,9 +89,10 @@ a {
 #githubLink {
   color: #630987;
 }
-#link_Projects {
-  margin-top: 20%!;
-  background-color: rgb(82, 3, 134);
+.link_Projects {
+  width: 400%;
+  margin-top: 100px;
+  background-color: #db33db;
   font-size: 120%;
 }
 /* My Info */
@@ -109,8 +105,8 @@ a {
 
 /* Background met Katten */
 .grappige-kat {
-  width: 100%;
+  width: 140%;
   height: auto;
   position: center;
-  margin-top: 100%;
+  margin-top: 157%;
 }

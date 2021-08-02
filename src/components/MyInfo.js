@@ -31,10 +31,13 @@ export default function MyInfo(props) {
     <div className="myInfo">
       <Parallax>
         <h1>{props.name}</h1>
-        <p> Motto: {props.motto}</p>
-        <p> Hobbies: {props.hobbies} </p>
-        <p> Programming languages:</p>
-        {props.ervaring}
+        <h3>Motto: </h3>
+        <p> {props.motto}</p>
+        <h3>Hobbies: </h3>
+        <p>{props.hobbies} </p>
+        <h3>Skills: </h3>
+        <p> {props.programmingLanguages}</p>
+
         <hr />
         <Background className="grappige-kat">
           <img src={grappigeKat} alt="grappigeKat" />
@@ -45,16 +48,11 @@ export default function MyInfo(props) {
         <HoverText>
           <p>{jokeComponents}</p>
         </HoverText>
-
-        {/* <section id="projects">
-          <h1>Projects </h1>
-          <Projects />
-        </section> */}
-
-        <Link onClick={goToProjectsPage} id="link_Projects">
-          To Projects page
-        </Link>
       </Parallax>
+
+      <div className="link_Projects">
+        <Link onClick={goToProjectsPage}>To Projects page</Link>
+      </div>
     </div>
   );
 }

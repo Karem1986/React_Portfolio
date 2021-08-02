@@ -3,7 +3,7 @@ import "./index.css";
 
 export default function Game() {
   const [startGame, setStartGame] = useState("");
-  const [timeRemaining, setTimeRemaining] = useState(2);
+  const [timeRemaining, setTimeRemaining] = useState(5);
   // to avoid time running infinitely after reaching 0
   const [isTimeRunning, setTimeRunning] = useState(false);
   const [wordCount, setWordCount] = useState(0);
@@ -42,12 +42,12 @@ export default function Game() {
       <h1>How fast do you type? Hoe snel typ je? </h1>
       <h4>Be hooked...or Be squared! </h4>
       <textarea value={startGame} onChange={handleSubmit}></textarea>
-      <h4>Resterende tijd {timeRemaining}</h4>
+      <h4>Resterende tijd/Time remaining: {timeRemaining}</h4>
       <button onClick={startClock} disabled={isTimeRunning}>
         Aan de slag!
       </button>
       <h1>Aantal worden: {wordCount}</h1>
-      <p>a game created with react hooks</p>
+      <p>A game created with react hooks 😉</p>
     </div>
   );
 }

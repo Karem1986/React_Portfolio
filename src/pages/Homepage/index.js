@@ -9,13 +9,13 @@ export default function Homepage() {
       name={info.name}
       motto={info.motto}
       hobbies={info.hobbies}
-      ervaring={info.ervaring}
+      programmingLanguages={info.programmingLanguages}
     />
   ));
 
   return (
     <div>
-      <img src={profile} className="App-logo" alt="Karem Ortiz" />
+      <img src={profile} className="Profile-logo" alt="Karem Ortiz" />
       {myInfo}
     </div>
   );
