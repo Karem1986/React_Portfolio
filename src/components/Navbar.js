@@ -30,7 +30,6 @@ export default function Navbar() {
       <nav className="nav">
         <ul className="ul">
           <NavLink to="/">Home</NavLink>
-          <NavLink to="about">About</NavLink>
           <NavLink to="projects">Projects</NavLink>
           <NavLink to="game">Have fun!</NavLink>
           <NavLink to="contact">Contact</NavLink>

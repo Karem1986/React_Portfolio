@@ -1,21 +1,14 @@
-import React from 'react'
+import React from "react";
 
 export default function Projects() {
-  const data=(
+  const data = (
     <div className="box">
-        <h2>
-          POLshop Ecommerce application </h2>
-        <h2>
-           Group Project </h2>
-        <h2>
-          Kermit News App </h2>
-          <h2>
-           CodeBuddy </h2>
+      <ul>
+        <li>POLshop</li>
+        <li>Kermit mobile app</li>
+        <li>Code buddy and more...</li>
+      </ul>
     </div>
   );
-  return (
- <div>
-   {data}
- </div>
-  )
+  return <div>{data}</div>;
 }
